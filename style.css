@@ -125,7 +125,7 @@ body {
     display: none;
 }
 #hero{
-    background-image: url("123.webp");
+    background-image: url("https://t4.ftcdn.net/jpg/03/09/86/97/360_F_309869755_IquCHHxF7YABo2odctUGEjMrgVDSM8qV.jpg");
     height: 90vh;
     width: 100%;
     background-size:cover ;
@@ -482,6 +482,9 @@ footer .copyright {
     text-align: center;
 }
 @media (max-width:799px){
+    .section-p1{
+        padding: 40px 40px;
+    }
     #navbar {
         display: flex;
         flex-direction: column;
@@ -534,6 +537,17 @@ footer .copyright {
 }
 #feature .fe-box{
     margin: 15px 15px;
+}
+#product1 .pro-container{
+    margin: 15px 0;
+    transition: 0.02s ease;
+    position: relative;
+}
+#product .pro{
+    margin: 15px;
+}
+#banner{
+    height: 20hv;
 }
 }
     
